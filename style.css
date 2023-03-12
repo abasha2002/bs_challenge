@@ -11,8 +11,77 @@
 }
 
 body{
-    overflow: hidden;
     background-color: #FAD961;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow: unset !important;
+    }
+    header p{
+        font-size: 18px !important;
+    }
+    header img{
+        margin-right: 5px !important;
+    }
+    .header_div{
+        width: unset !important;
+    }
+    
+    section{
+        padding:  0 !important;
+    }
+    section h1{
+        font-size: 24px !important;
+        letter-spacing: 0 !important;
+        line-height: unset !important;
+    }
+    button{
+        width: 100% !important;
+    }
+    button p{
+        font-size: 14px !important;
+        line-height: unset !important;
+        letter-spacing: 0 !important;
+    }
+    button h2{
+        font-size: 18px !important;
+        line-height: unset !important;
+        letter-spacing: 0 !important;
+    }
+    .main_image{
+        width: 100%;
+        height: 200px !important;
+        bottom: -10% !important;
+    }
+    .footer_row div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px !important;
+        margin: 0 !important;
+    }
+    section p{
+        font-size: 14px !important;
+        width: fit-content !important;
+    }
+    footer p{
+        color: white !important;
+    }
+    footer a{
+        font-size: 10px !important;
+        margin: 0px !important;
+        color: white !important;
+    }
+    .twitter{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .facebook{
+        width: 30px !important;
+        height: 30px !important;
+    }
 }
 
 .title{
@@ -22,6 +91,9 @@ body{
     font-size: 27.451px;
     color: #000000;
     margin-bottom: 0px;
+}
+header{
+    padding: 15px;
 }
 header span{
     font-family: 'Roboto';
@@ -66,13 +138,13 @@ footer a:nth-child(4){
     height: 529px;
     position: absolute;
     right: 0;
-    top: -100px;
+    bottom: -10%;
     z-index: -1;
 }
 .back{
     position: absolute;
     right: 0;
-    top: -160px;
+    bottom: 50px;
     z-index: -1;
 }
 .main_div{
