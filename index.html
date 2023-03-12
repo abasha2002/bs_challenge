@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container p-3">
-        <div class="row d-flex">
-            <div class="col-10 float-start">
-                <div class="d-flex">
-                    <img src="./images/menu.svg" alt="black squares" style="margin-right: 23px;">
+    <header class="container">
+        <div class="header_row d-flex justify-content-between">
+            <div class="header_div">
+                <div class="d-flex align-items-center">
+                    <img class="menu" src="./images/menu.svg" alt="black squares" style="margin-right: 23px;">
                     <p class="title mt-1">Crowdfund.</p>
                 </div>
             </div>
-            <div class="col-2 d-flex align-items-center float-end ms-md-auto">
+            <div class="header_div">
                 <div class="btn-group">
                     <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <img class="rounded-circle" src="./images/profile.png" alt="profile picture of a girl" style="margin-right: 14px;">
@@ -37,22 +37,24 @@
     </header>
 
     <section class="container-fluid" style="padding: 0px 0px 0px 100px;">
-        <div class="main_div d-flex align-items-center">
-            <p>B.PLAY</p>
-            <h1>Bluetooth Speaker</h1>
-            <button>
-                <h2>€71,398</h2>
-                <img src="./images/Line.svg" alt="vertical line">
-                <p>pledged of €22,461 goal</p>
-            </button>
+        <div class="row">
+            <div class="main_div col-12 d-flex align-items-center">
+                <p>B.PLAY</p>
+                <h1>Bluetooth Speaker</h1>
+                <button>
+                    <h2>€71,398</h2>
+                    <img src="./images/Line.svg" alt="vertical line">
+                    <p>pledged of €22,461 goal</p>
+                </button>
+            </div>
         </div>
 
-        <div class="container-fluid position-relative" style="margin-bottom: 85px;">
+        <div class="container-fluid" style="margin-bottom: 90px;">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12">
                     <div class="description">
                         <div>
-                            <img src="./images/pages.svg" alt="icon of pages">
+                            <img class="pages" src="./images/pages.svg" alt="icon of pages">
                         </div>
                         <div>
                             <h5>ASSEMBLED IN DENMARK</h5>
@@ -61,7 +63,7 @@
                     </div>
                     <div class="description">
                         <div>
-                            <img src="./images/equipment.svg" alt="icon of construction equipments">
+                            <img class="equip" src="./images/equipment.svg" alt="icon of construction equipments">
                         </div>
                         <div>
                             <h5>BUILD FOR PROFESSIONALS</h5>
@@ -70,16 +72,17 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div>
                     <img class="main_image" src="./images/tech.png" alt="product">
                     <img class="back" src="./images/background.png" alt="background image">
                 </div>
             </div>
         </div>
     </section>
+    
 
     <footer class="container">
-        <div class="row">
+        <div class="row footer_row">
             <div class="col-4">
                 <p>© 2019 crowdfund. All Rights Reserved</p>
             </div>
@@ -90,8 +93,8 @@
                 <a href="#">PRIVACY POLICY</a>
             </div>
             <div class="col-2">
-                <img class="me-3" src="./images/Twitter.svg" alt="twitter icon">
-                <img class="me-4" src="./images/Facebook.svg" alt="facebook icon">
+                <img class="me-3 twitter" src="./images/Twitter.svg" alt="twitter icon">
+                <img class="me-4 facebook" src="./images/Facebook.svg" alt="facebook icon">
                 <img src="./images/YouTube.svg" alt="youtube icon">
             </div>
         </div>
