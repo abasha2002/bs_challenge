@@ -97,6 +97,9 @@ body{
         display: flex !important;
         flex-direction: row !important;
     }
+    .description p{
+        width: fit-content !important;
+    }
 }
 
 .title{
@@ -189,7 +192,7 @@ footer a:nth-child(4){
     border: 2px solid #1B1B1B;
     border-radius: 100px;
     background-color: inherit;
-    margin-top: 42px;
+    margin-top: 20px;
     
     display: flex;
     align-items: center;
