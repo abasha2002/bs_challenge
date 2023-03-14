@@ -108,6 +108,9 @@ body{
     .description p{
         width: fit-content !important;
     }
+    .descriptions{
+        position: unset !important;
+    }
 }
 
 .title{
@@ -164,6 +167,7 @@ footer a:nth-child(4){
     height: 452px;
     padding-left: 50px;
     padding-top: 40px;
+   
 }
 .back{
     position: absolute;
